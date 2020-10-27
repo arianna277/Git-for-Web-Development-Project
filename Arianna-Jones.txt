@@ -1,0 +1,49 @@
+https://codepen.io/arianna277/pen/QWNRGdW
+
+1. Semantic HTML has a clear meaning and defines its content. 
+2. HTML is used to build web pages.
+3. An attribute is a special flag inside of tags used to show things like links on webpages.
+4. The h1 tag is used to create the largest of 6 titles or headers. It should be used once on a page.
+5. Img tag and a href tag (images and links)
+6. DOCTYPE!, links to our CSS stylesheets, character set used (usually UTF8), and meta tags
+7. An ID is a CSS tag used to style ONE specific element
+8. Any element
+9. Once
+10. A class is a CSS tag used to give multiple elements the same style
+11. Any element
+12. As many times as you want
+13. Add target="_blank" to the end of your link
+14. The alt attribute describes the image for those who use screen readers
+15. # id_name
+16. A section is usually used to define a certain section of a webpage (i.e a header or footer) whereas a div can be used to group together elements for style purposes (no need for definition)
+17. CSS is used to style a webpage
+18. h2 { }
+19. A class is used for multiple elements. You can apply it to a section to change the style of every element in that section. An ID would be used on one specific element (i.e changing the title of the webpage)
+20. .class_name { }
+21. .human p { }    
+22. A parent child selector is one selector nested inside another. This would be helpful if you change the style of the background of the section but also need to change the color of the font in that same section.
+23. .sidebar a { }
+24. A pseudo selector changes certain elements in specific states 
+25. line-spacing: x ;
+26. letter-spacing: x;
+27. text-transform: capitalize;
+28. div {
+	border: 1px dotted black; }
+29. body { }
+30. /* comment here */
+31. pwd
+32. ls
+33. rm, and you have to be careful because the file is deleted FOREVER. The file does not go to the recycling bin.
+34. Version control allows you to see every version of your project (every save) and can allow you to go back to previous versions if mistakes have been made
+35. You should commit to github after every major change
+36. git push -u origin branch-name
+37. -fork the repo
+    -clone repo
+    -in command line: navigate to folder you want your repo (i.e. cd~/desktop/lambda/)
+    -in command line: git clone repo_link_here
+    -navigate to the new repo (i.e cd~/desktop/lambda/repo_name_here)
+    -create new branch (git checkout -b branch_name)
+    -work on the repo, git add . changes, git commit -m "message here with changes", git status
+    -push back to github (git push -u origin branch_name)
+    -make a pull request to compare your changes on local machine to remote repo
+  
